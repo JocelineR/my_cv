@@ -109,8 +109,8 @@ export default function HomePage() {
         <div className="bg-babyBlue mx-auto mb-6 w-3/5 rounded-lg pt-12 text-left">
           <h1 className="text-blueGreen ">
             <span className="main-title">
-              Hi! I'm Joceline Rubio, <br /> I am a Software Developer looking
-              for new challenges!
+              Hi! I&lsquo;m Joceline Rubio, <br /> I am a Software Developer
+              looking for new challenges!
             </span>
           </h1>
           <br />
@@ -154,10 +154,11 @@ export default function HomePage() {
 
         <Experience
           icon={<LogoAmdocs />}
-          date="2021 - 2024"
-          company="ORACLE"
-          companyDescription="Oracle is an information technology company that offers a wide range of business-oriented products and services that include Oracle Databases."
-          position="Software Developer"
+          date="2019 - 2020"
+          company="AMDOCS"
+          companyDescription="Amdocs is a company that specializes in software and services for communications, media and
+          financial services providers and digital enterprises."
+          position="Software Engineering Associate"
           tasks={[
             "Front-end development using Angular, HTML and CSS.",
             "Improved bash skills developing scripts to automate processes.",
