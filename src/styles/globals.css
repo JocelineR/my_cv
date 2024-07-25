@@ -109,7 +109,14 @@
   margin-bottom: 8px;
   font-family: sans-serif;
 
-  /*left-9 flex*/
+  /*left-9 flex
+  text-decoration: none;
+  color: inherit;
+  */
+}
+
+.div-main-info-item a:hover {
+  text-decoration: underline;
 }
 
 .div-main-info {

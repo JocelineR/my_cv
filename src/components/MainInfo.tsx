@@ -129,21 +129,34 @@ const MainInfo: React.FC = () => {
     <div className="div-main-info">
       <div className="div-main-info-item">
         <LogoEmailThin />
-        <span className=" text-tealGreen p-2 align-middle">
+        <a
+          href="mailto:jocelinne9504@gmail.com"
+          className="text-tealGreen p-2 align-middle"
+        >
           jocelinne9504@gmail.com
-        </span>
+        </a>
       </div>
       <div className="div-main-info-item">
         <LogoLinkedinThin />
-        <span className=" text-tealGreen p-2 align-middle">
+        <a
+          href="https://www.linkedin.com/in/jocelinerubio137"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=" text-tealGreen p-2 align-middle"
+        >
           www.linkedin.com/in/jocelinerubio137
-        </span>
+        </a>
       </div>
       <div className="div-main-info-item">
         <LogoPhoneThin />
-        <span className=" text-tealGreen p-2 align-middle">
+        <a
+          href="https://wa.me/+523314069113"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=" text-tealGreen p-2 align-middle"
+        >
           + 52 33 14 06 91 13
-        </span>
+        </a>
       </div>
     </div>
   );
